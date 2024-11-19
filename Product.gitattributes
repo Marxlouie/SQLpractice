@@ -1,3 +1,5 @@
+*.sql linguist-language=sql
+*.my linguist-language=sql
 CREATE TABLE PRODUCT
 (
 PRODUCT_ID NUMBER(5) UNIQUE CHECK(PRODUCT-ID>0),
